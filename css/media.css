@@ -27,14 +27,14 @@
 		padding: 0 5px 0 0;
 	}
 	.navbar-right {
-    	margin-right: 0;
+		margin-right: 0;
 	}
 	.flex-item {
 		width: 31.7%;
 		margin: 0 0 28px 0;
 	}
 	.navbar {
-    	padding: 21px 0 12px 37px;
+		padding: 21px 0 12px 37px;
 	}
 	.brands-block .flex-container {
 		flex-wrap: wrap;
@@ -53,19 +53,15 @@
 	.client-user::before {
 		content: "";
 		position: absolute;
-		top: 30%;
-		left: 3%;
+		top: -16px;
+		left: -1px;
 		background: url(../img/reviews-icon.png) 0 0 no-repeat;
 		width: 30px;
 		height: 30px;
 	}
-	.client-user:last-child::before {
-		left: 51%;
-	}
 	.footer .form-block,
 	.modal-block-2 {
 		width: 515px;
-		margin-left: 15.7%;
 	}
 	.modal-block-2 {
 		left: 6%;
@@ -74,34 +70,25 @@
 		left: 42%;
 		bottom: 2%;
 	}
+	.info-content h3 {
+		display: inline-block;
+		padding: 7px 0 0 11px;
+	}
 }
 @media (min-width:1024px) {
 	.reviews .client-user:first-child {
-		margin-right: 58px;
+		margin-right: 61px;
 	}
 	.reviews .client-user {
 		width: 46%;
 	}
 	.brands-block .flex-item {
-   		margin: 20px 0 0 0;
-    	width: 10%;
-	}
-	.client-user::before {
-		left: 4%;
-		top: 36%;
-	}
-	.client-user:last-child::before {
-		left: 51%;
-	}
-	.footer .form-block {
-		margin-left: 35.7%;
+		margin: 20px 0 0 0;
+		width: 10%;
 	}
 	.modal-block-2 {
 		left: 20%;
 	}
 }
 @media (min-width:1200px) {
-	.client-user::before {
-		left: 18%;
-	}
 }

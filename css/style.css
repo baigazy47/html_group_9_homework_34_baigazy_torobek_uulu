@@ -1,5 +1,5 @@
 body {
-	font-family: Arial, 'open_sansregular', Helvetica, sans-serif;
+	font-family: 'open_sansregular' sans-serif;
 	color: #000;
 	background: #fff;
 	font-size: 14px;
@@ -112,9 +112,9 @@ header.fix {
 }
 .nav > li {
 	padding: 0 12px 0 17px;
-	font-family: 'open_sansregular';
 	font-size: 12px;
 	text-transform: uppercase;
+	font-family: 'open_sanssemibold';
 }
 .nav > li > a {
 	padding: 6px 0 0;
@@ -135,11 +135,11 @@ header.fix {
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a {
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid transparent;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	border-bottom: 1px solid skyblue;
+	border-bottom: 2px solid skyblue;
 }
 .container > .navbar-header,
 .container-fluid > .navbar-header,
@@ -285,7 +285,6 @@ header.fix {
 .reviews {
 	padding: 50px 0;
 	text-align: center;
-	position: relative;
 }
 .reviews .blocks-title {
 	padding: 23px 40px 82px 0;
@@ -301,6 +300,7 @@ header.fix {
 	padding: 5px 20px;
 	border: 1px solid #ccc;
 	margin: 15px 0;
+	position: relative;
 }
 .client-user p {
 	font-family: 'open_sansregular';
@@ -318,7 +318,10 @@ header.fix {
 	font-size: 16px;
 	font-family: 'open_sansbold';
 	color: #36aeea;
-	padding: 13px 14px 0 0;
+	padding: 8px 14px 0 0;
+}
+.info-content h3 {
+	font-size: 16px;
 }
 .info-content span {
 	font-family: 'open_sansregular';
@@ -332,11 +335,12 @@ footer {
 }
 .footer .form-block {
 	width: 96%;
-	margin-left: 3%;
+	margin-left: auto;
 	background: #b3bec1;
 	opacity: 0.9;
 	border-radius: 7px;
 	padding: 0;
+	margin-right: auto;
 }
 .footer .form-block h3 {
 	color: #36aeea;
