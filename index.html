@@ -13,7 +13,6 @@
 <body>
 	<div class="form-block modal-block-2" id="enter_modal">
 		<form>
-			<a class="close_modal" href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
 			<h3>Contacts</h3>
 			<p>Sign up for our newsletter to receive updates</p>
 			<input type="text" placeholder="Name">
@@ -22,7 +21,7 @@
 			<button>Send</button>
 		</form>
 	</div>
-	<div class="overlay"></div>
+	<div class="overlay close_modal"></div>
 	<header>
 		<nav class="navbar navbar-default">
 			<div class="container">
@@ -42,9 +41,7 @@
 						<li><a href="#reviews">Clients say</a></li>
 						<li><a href="#contact">Contacts</a></li>
 					</ul>
-					<form class="navbar-form navbar-right">
-						<a href="#enter_modal" class="btn btn-default open_modal">Call us</a>
-					</form>
+					<a href="#enter_modal" class="btn btn-default open_modal navbar-right">Call us</a>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container -->
 		</nav>

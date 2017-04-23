@@ -27,7 +27,7 @@
 		padding: 0 5px 0 0;
 	}
 	.navbar-right {
-		margin-right: 0;
+		margin-right: 3px;
 	}
 	.flex-item {
 		width: 31.7%;
@@ -64,7 +64,7 @@
 		width: 515px;
 	}
 	.modal-block-2 {
-		left: 6%;
+		left: 18%;
 	}
 	.slick-dots {
 		left: 42%;
@@ -87,7 +87,7 @@
 		width: 10%;
 	}
 	.modal-block-2 {
-		left: 20%;
+		left: 30%;
 	}
 }
 @media (min-width:1200px) {
