@@ -21,6 +21,14 @@
 	.client-user .info-content {
 		text-align: left;
 	}
+	.slick-dots li button {
+		width: 14px;
+		height: 14px;
+	}
+	.slick-dots li.slick-active button {
+		width: 14px;
+		height: 14px;
+	}
 }
 @media (min-width:768px) {
 	.navbar-form {
@@ -34,7 +42,7 @@
 		margin: 0 0 28px 0;
 	}
 	.navbar {
-		padding: 21px 0 12px 37px;
+		padding: 21px 0 20px 37px;
 	}
 	.brands-block .flex-container {
 		flex-wrap: wrap;
@@ -87,7 +95,7 @@
 		width: 10%;
 	}
 	.modal-block-2 {
-		left: 30%;
+		left: 31.2%;
 	}
 }
 @media (min-width:1200px) {

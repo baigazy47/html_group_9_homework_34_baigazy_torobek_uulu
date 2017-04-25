@@ -127,6 +127,7 @@ body {
 	height: 100%;
 	display: none;
 	opacity: 0.65;
+	z-index: 102;
 }
 .fancybox-close-small:hover:after {
 	background: #eee;
@@ -144,10 +145,12 @@ header {
 }
 header.fix {
 	position: fixed;
-	z-index: 912;
+	z-index: 101;
 	width: 100%;
 	background: #95a5ad;
 	color: #fff;
+	margin: 0;
+	padding: 0;
 }
 .navbar {
 	margin-bottom: 0;
@@ -245,6 +248,7 @@ header .fix .navbar-default {
 .slider {
 	height: auto;
 	min-height: 703px;
+	overflow: hidden;
 }
 .slick-arrow {
 	position: absolute;
@@ -290,8 +294,8 @@ header .fix .navbar-default {
 	display: inline-block;
 }
 .slick-dots li button {
-	width: 14px;
-	height: 14px;
+	width: 8px;
+	height: 8px;
 	font-size: 0;
 	padding: 0;
 	border: 1px solid #ccc;
@@ -300,8 +304,8 @@ header .fix .navbar-default {
 	border-radius: 50%;
 }
 .slick-dots li.slick-active button {;
-	width: 14px;
-	height: 14px;;
+	width: 8px;
+	height: 8px;;
 	background: #423d3d;
 }
 .slick-slide img {
@@ -471,8 +475,13 @@ footer {
 	color: #fff;
 	text-transform: uppercase;
 }
-
-
-// .navbar-default .navbar-nav > li > a {
-// 	color: #fff;
-// }
+.btn-default.active, .btn-default:active {
+	background-color: transparent;
+	border-color: #44b1e9;
+	color: #43b1e8;
+}
+.fix .btn {
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+}
